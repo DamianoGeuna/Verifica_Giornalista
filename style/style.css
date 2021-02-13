@@ -1,0 +1,70 @@
+.html
+{
+    background-color: grey;
+}
+.container-navigazione
+{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    background-color: rgb(143, 143, 143);
+}
+.container-home
+{
+    margin:0px;
+}
+
+.container-home-titolo
+{
+    text-align: center;
+}
+.container-home-profilo
+{
+    display: flex;
+    align-items: center;
+}
+.img
+{
+    margin: 20px;
+    float: left;
+}
+.article
+{
+    display:flex
+}
+
+.Recap
+{
+    margin: 50px;
+}
+
+.lavori
+{
+    margin: 30px;
+}
+
+.col-50
+{
+    padding: 1rem;
+    width: 50%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.row
+{
+
+}
+
+.card
+{
+    display: inline-block;
+    margin: 10px;
+    width: auto;
+    justify-content: center;
+}
+
+.card__image img
+{
+    width: 80%;
+}

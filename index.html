@@ -5,25 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="icon" href="./img/img_Home/Screenshot_2021-02-13 Walker-Evans-crop-c0-5__0-5-555x312-70 jpg (immagine JPEG, 555 × 312 pixel).png">
     <link rel="stylesheet" href="style/style.css">
+
 
 </head>
 <body>
-    <nav class="navbar-expand-md">
-        <!--home, biografia-->
+    <nav class="navbar navbar-expand-sm nav-pills navbar-masthead navbar-inverse bg-dark navbar-dark">
+        <div class="container-navigazione">
+            <ul class="navbar-nav">
+                <a href="./img/img_Home/Walker_Evans_1937-02.jpg" class="nav-brand"> </a>
+                <img style=width:3rem src="./img/img_Home/Walker_Evans_1937-02.jpg">
+                <li class="nav-item">
+                    <a href="./index.html" class="nav-link active"> Home </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./bio.html" class="nav-link"> Biografia </a>
+                </li>
+                <li class="nav-item">
+                    <a href="./gallery.html" class="nav-link"> Gallery </a>
+                </li>
+            </ul>
+        </div>   
     </nav>
     <div class="container-home">
+        <h2 class="container-home-titolo">I grandi fotografi della storia</h2>
         <div class="container-home-profilo">
-            <h2 class="container-home-titolo">I grandi fotografi della storia</h2>
-            <div class="contaier-home-photo">
-                <!--fotografia da wiki-->
-            </div>
-            <p>Walker Evans è stato un fotografo statunitense, celebre per aver immortalato gli Stati Uniti della crisi economica degli anni trenta.</p>
+            <img class="img" src="img/img_Home/Walker_Evans_1937-02.jpg" width="25%">
+            <article class="Recap">
+                <p>
+                    <strong>Walker Evans</strong> è stato un fotografo statunitense, celebre per aver immortalato gli Stati Uniti della crisi economica degli anni trenta.
+                    La sua fu una fotografia sociale, documentaria e di denuncia, tanto della condizione umana, quanto di quella strutturale.
+                    I suoi soggetti erano i volti della gente, così come le case e i paesaggi in cui abitavano. Mentre gli USA diventavano una
+                    superpotenza mondiale, Evans si concentrò sempre sugli ordinari cittadini, fornendo una prova visiva della nascita e dei
+                    cambiamenti negli USA moderni, mostrando l'inizio della cultura dell'automobile.
+                    Si possono dire molte cose su di lui, ad esempio fu il primo fotografo ad avere una propria esizione al MoMA, il museo
+                    d'arte moderna di New York. I suoi cinquant'anni passati a documentare la vita degli USA influenzò altri fotografi come
+                    Diane Arbus, Lee Friedlander, Garry Winogrand and Martin Parr.
+                </p>
+                   <p> Descritto dal Metropolitan Museum come colui che aveva "La sfumatura di un poeta e  la precisione di un chirurgo", viene visto oggi
+                    come il progenitore delle genere documentativo Americano. <a href="./bio.html">Scopri di più...</a></p>
+            </article>
         </div>
     </div>
     <div class="container-home-descrizione">
-        <h2 class="container-home-titolo"></h2>
-        <p></p>
+        <h2 class="container-home-titolo">I suoi Lavori</h2>
+        <article class="lavori">
+            Il lavoro principale di Evans fu appunto, la documentazione delle famiglie americane nel sud dell'Alabama durante la Grande Depressione,
+            un lavoro durato tre anni, dal 1935 al 1938.
+            <p>
+                Inoltre, sempre nel 1938 fino al 1941, cominciò a scattare fotografie di nascosto ad ignari passeggeri della metropolitana di New York,
+                un luogo dove "la guardia è abbassata e la maschera è calata"
+            </p>
+        </article>
+        <div class="section__content row">
+            <div class="col-50">
+            <article class="card">
+                <figure class=card__image>
+                    <a href="./gallery.html"> <img src="./img/img_Home/praise-famous.jpg"></a>                    
+                    <figcaption class="title">
+                        <h4 class="h4-verticale">
+                            <b>Fotografie della Grande Depressione</b>
+                        </h4>                                         
+                    </figcaption>
+                </figure>
+            </article>
+            </div>
+            
+            <div class="col-50">
+                <article class="card">
+                    <figure class=card__image>
+                        <a href="./gallery.html"> <img src="./img/img_Home/evans1982ea262.webp"></a>
+                <figcaption class="title">
+                    <h4 class="h4-verticale">
+                        <b>Fotografie nella Metropolitana</b>
+                    </h4>                                         
+                </figcaption>
+                    </figure>
+                </article>
+        </div>
     </div>
+
+
+
+
+    <div class="return">
+        <button class="btn"><a href="./index.html" >Torna Su</button></a>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <footer> 
+        
+        <hr>    
+        <div class="footer" style="background-color: rgb(102, 102, 102);">   
+            Sito sviluppato da: Damiano Geuna.
+        </div>
+       
+        
+    </footer>
+
 </body>
 </html>
