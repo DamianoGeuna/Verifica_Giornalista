@@ -69,7 +69,10 @@
 
 
 
-
+.btn:hover
+{
+    background-color: grey;
+}
 
 /*Bio*/
 
@@ -84,4 +87,33 @@
     border-radius: 50%;
     justify-content: center;
     box-sizing: border-box;
+}
+
+
+
+
+/*Gallery*/
+
+.container-gallery-descrizione
+{
+    margin:25px;
+    text-align: justify;
+}
+
+.container-gallery-uno-cards
+{
+    display: flex;
+    margin: 25px;
+}
+
+
+.Card-verticale .col-20
+{
+    margin: 1rem;
+    width: auto;
+}
+
+.img-verticale
+{
+  width:fit-content
 }
