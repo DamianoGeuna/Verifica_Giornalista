@@ -77,35 +77,57 @@ body
     background-color: white;
 }
 
-
-
-
-
-
-
-
-
-
 .btn:hover
 {
     background-color: grey;
 }
 
+
+
 /*Bio*/
 
 .titolo-bio
 {
-    margin: 20px;
+    text-align: center;
+    margin: 10px;
+    padding: 1rem;
 }
 
-.photo-bio
+.Immagine_Bio
 {
-    display: flex;
-    border-radius: 50%;
-    justify-content: center;
+    display: block;
+    padding: 2rem;
     box-sizing: border-box;
+    border-radius: 50%;
+    width: 50px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
+.Storia_Card
+{
+
+}
+
+.Allie
+{
+    width: 200px;
+    float: right;
+}
+
+.Treno
+{
+    width: 400px;
+    float:left;
+    padding: 10px;
+}
+
+.Opere
+{
+    margin-left: 20px;
+}
 
 
 
