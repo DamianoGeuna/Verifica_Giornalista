@@ -133,26 +133,32 @@ body
 
 /*Gallery*/
 
-.container-gallery-descrizione
+
+
+.container-gallery-descrizione-uno
 {
+    display:block;
     margin:25px;
     text-align: justify;
 }
 
 .container-gallery-uno-cards
 {
+    display: block;
+    justify-content: center;
+}
+
+
+
+.container-gallery-due-cards
+{
     display: flex;
-    margin: 25px;
+    justify-content: center;
 }
 
-
-.Card-verticale .col-20
+.container-carousel-due
 {
-    margin: 1rem;
-    width: auto;
-}
-
-.img-verticale
-{
-  width:fit-content
+    justify-content: center;
+    width: 500px;
+    height: auto;
 }
