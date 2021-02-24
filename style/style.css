@@ -68,7 +68,6 @@ body
 .card__home
 {
     display: flex;
-    width: 50%;
     text-align: center;   
 }
 
