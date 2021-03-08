@@ -1,5 +1,6 @@
 body
 {
+    width: auto;
     font-family: Truculenta;
     background-color:whitesmoke;
 }
@@ -16,7 +17,13 @@ body
 }
 .container-home
 {
-    margin:0px;
+    margin:10px;
+}
+
+.container-home-descrizione
+{
+    flex-direction: column;
+    justify-content: center;
 }
 
 .container-home-titolo
@@ -50,25 +57,47 @@ body
 .container-home-lavori
 {
     margin: 30px;
-    text-align: justify;
+    text-align: center;
 }
 
-.section__content
+.section__content_row
 {
-    margin: auto;
+    display: block;
+    padding: 10px;
+    flex-wrap: wrap;
 }
 
 .col-50
 {
-    width: 50%;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+@media (max-width: 1000px)
+{
+    .section__content_row
+    {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 .card__home
 {
     display: flex;
-    text-align: center;   
+    text-align: center;
+    width: auto;
+}
+
+.card__home_image img
+{
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: block;
 }
 
 .card__home_image_text
