@@ -161,14 +161,6 @@ body
 
 /*Gallery*/
 
-.gallery_photo
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: fit-content;
-}
-
 .container-gallery-descrizione-uno
 {
     margin:25px;
@@ -177,26 +169,20 @@ body
 
 .container-gallery-uno-cards
 {
+    display: flex;
     justify-content: center;
 }
 
 .container-carousel-Uno
 {
-    justify-content: right;
+    justify-content: center;
 
 }
-
-
 
 .container-gallery-descrizione-due
 {
     margin: 25px;
-}
-
-.carousel-indicators_uno
-{
-    display: flex;
-    justify-content: center;
+    text-align: justify;
 }
 
 .container-gallery-due-cards
@@ -209,9 +195,4 @@ body
 {
     justify-content: center;
 
-}
-.Carousel_img
-{
-    margin-right: auto;
-    margin-left: auto;
 }
