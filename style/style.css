@@ -134,11 +134,6 @@ body
     
 }
 
-.Storia_Card
-{
-
-}
-
 .Allie
 {
     width: 200px;
@@ -161,38 +156,25 @@ body
 
 /*Gallery*/
 
-.container-gallery-descrizione-uno
+.container-carousel1
 {
-    margin:25px;
+    margin: 50px 0px;
+
+}
+
+.Descr_Titoli_Galleria
+{
+    margin: 30px;
     text-align: justify;
 }
 
-.container-gallery-uno-cards
+.container-carousel2
 {
-    display: flex;
-    justify-content: center;
-}
-
-.container-carousel-Uno
-{
-    justify-content: center;
+    margin: 50px 0px;
 
 }
 
-.container-gallery-descrizione-due
+.return
 {
-    margin: 25px;
-    text-align: justify;
-}
-
-.container-gallery-due-cards
-{
-    display: flex;
-    justify-content: center;
-}
-
-.container-carousel-due
-{
-    justify-content: center;
-
+    margin-top: 20px;
 }
